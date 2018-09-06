@@ -1,6 +1,14 @@
 # hello-api-nodejs
 
-This my Homework Assignment #1 for the course The Node.js Master Class by Pirple.
+This is my Homework Assignment #1 for the course The Node.js Master Class by Pirple.
+
+```
+Please create a simple "Hello World" API. Meaning:
+
+1. It should be a RESTful JSON API that listens on a port of your choice. 
+
+2. When someone posts anything to the route /hello, you should return a welcome message, in JSON format. This message can be anything you want. 
+```
 
 ## Getting Started
 
@@ -15,10 +23,10 @@ Clone the project and run it using node
 > node index.js
 ```
 
-use Postman or the browser to test the API
+use Postman to test the API
 
 ```
-http://localhost:3080/ping
+http://localhost:3080/hello
 ```
 
 ## Contributing
