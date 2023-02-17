@@ -18,7 +18,7 @@ environments.production = {
     'envName': 'production'
 };
 
-// Determain which environment was passed as commnabd-line argument
+// Determain which environment was passed as command-line argument
 var currentEnviroment = typeof(process.env.NODE_ENV) == 'string' ? process.env.NODE_ENV : 'staging';
 
 currentEnviroment = currentEnviroment.toLowerCase();
